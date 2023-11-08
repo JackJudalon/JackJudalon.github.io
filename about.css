@@ -35,3 +35,27 @@ ul.navbar li a:hover {
 ul.navbar li + li {
     margin-left: 10px;
 }
+
+.slideshow-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slideshow-container img {
+    width: 100%;
+    display: none;
+}
+
+.slideshow-container img:first-child {
+    display: block;
+}
+
+.company-intro {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
