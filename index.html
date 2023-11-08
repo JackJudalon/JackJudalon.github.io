@@ -8,8 +8,10 @@
         /* Style for the navigation bar */
         ul.navbar {
             list-style-type: none;
-            background-color: #333;
+            background-color: #3498db; /* Light blue background color */
             overflow: hidden;
+            margin: 0;
+            padding: 0;
         }
 
         ul.navbar li {
@@ -25,14 +27,19 @@
         }
 
         ul.navbar li a:hover {
-            background-color: #444;
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        /* Add a bit of spacing to the navigation links */
+        ul.navbar li + li {
+            margin-left: 10px;
         }
     </style>
 </head>
 <body>
     <!-- Navigation bar -->
     <ul class="navbar">
-        <li><a href="#home">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="contact.html">Contact</a></li>
